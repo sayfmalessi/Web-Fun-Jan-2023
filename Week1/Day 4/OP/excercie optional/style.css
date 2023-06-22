@@ -1,0 +1,98 @@
+/* reset.to.defult */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* containzr content */
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 500px;
+background-color: #062134;
+padding: 10px;
+}
+/* navigation contant */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+span{
+    color: rgb(24,142,216);
+}
+h1{
+    font-weight: lighter;
+}
+li{
+    display: inline;
+    margin-left: 40px;
+}
+li:first-child{
+    color:rgb(24,142,216) ;
+}
+/* main contant */
+main{
+    background-color: white;
+    padding: 10px;
+}
+main image{
+   
+    width: 100px;
+}
+/* margin-bottom:20px */
+/* sub contant */
+.sub-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/* card contant */
+.card{
+    background-color: blue;
+    width: 30%;
+    padding: 10px;
+    color: white;
+}
+.card>img{
+    width: 30px;
+    margin-top: 5px;
+}
+.card>h3{
+    display: inline-block;
+    font-size: 20pt;
+    font-weight: lighter;
+
+}
+.card>button{
+   padding: 10px 20px;
+   background-color: rgb(0,211,255);
+   color: white;
+   border: none;
+   border-radius: 10%;
+}
+.testimotional{
+    margin: 10px;
+    display: flex;
+   
+}
+.flex1{
+    width: 65%;
+}
+.flex{
+    display: flex;
+    /* justify-contant:space betwin */
+    margin-top: 5px;
+}
+.flex p{
+    margin-left: 10px;
+}
+.flex2{
+    background-color: rgb(71, 140, 199);
+    width: 65%;
+    min-height: 100px;
+    margin-right: 40px;
+}

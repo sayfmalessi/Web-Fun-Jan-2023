@@ -1,0 +1,17 @@
+h1, h2,{
+    display: inline-block;
+    background-color: aqua;
+    width: 200px;
+    
+}
+label, input{
+    display: block;
+}
+p{
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+}
